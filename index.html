@@ -1,0 +1,286 @@
+¡Me encanta el concepto y el nombre **Café Bunny Hole🐰**! Le da mucha personalidad a la cafetería.
+
+Aquí tienes todo el código integrado en el archivo `index.html` completo, con el nombre, los textos actualizados y la paleta de colores pasteles:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Bunny Hole 🐰 - Proyecto</title>
+    <style>
+        /* PALETA DE COLORES PASTELES */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f0ea; /* Crema suave de fondo */
+            color: #5c4b51; /* Café topo suave para el texto */
+        }
+
+        header {
+            background-color: #e8d5c4; /* Café con leche pastel */
+            color: #5c4b51;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            border-bottom: 3px solid #f2d6c9;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-style: italic;
+            color: #7d6b6d;
+        }
+
+        nav {
+            background-color: #f2d6c9; /* Rosa/durazno pastel suave */
+            text-align: center;
+            padding: 0.8rem;
+        }
+
+        nav a {
+            color: #5c4b51;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.05rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #8c6d63;
+        }
+
+        .contenedor {
+            max-width: 800px;
+            margin: 25px auto;
+            padding: 25px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+            border: 1px solid #f2e3d5;
+        }
+
+        h2 {
+            color: #8c6d63;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #8c6d63;
+            background-color: #fcf4ee; /* Fondo suave para los subtítulos */
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin-top: 30px;
+            border-left: 4px solid #f2d6c9;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dashed #e8d5c4;
+            padding: 12px 5px;
+            font-size: 1rem;
+        }
+
+        .precio {
+            font-weight: bold;
+            color: #a27b5c; /* Café dorado pastel para precios */
+            background-color: #f7f0ea;
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #e8d5c4;
+            color: #5c4b51;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>☕ Café Bunny Hole🐰</h1>
+        <p>El dulce escape de tus días</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#menu">Menú</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="contenedor" id="inicio">
+        <h2>Sobre Nosotros</h2>
+        <p>Bienvenidos a Café Bunny Hole. Somos el lugar perfecto donde endulzamos tus días y te ofrecemos una experiencia de otra galaxia, donde el protagonista eres tú.</p>
+    </div>
+
+    <div class="contenedor" id="menu">
+        <h2>Nuestro Menú</h2>
+
+        <!-- SECCIÓN: CAFÉS -->
+        <h3>☕ Cafés</h3>
+        <div class="menu-item">
+            <span>Café Espresso</span>
+            <span class="precio">$2.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Café Ristretto</span>
+            <span class="precio">$2.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Café Americano</span>
+            <span class="precio">$2.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Café Filtrado</span>
+            <span class="precio">$2.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Café con Leche</span>
+            <span class="precio">$3.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Café Cappuccino</span>
+            <span class="precio">$3.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Café Macchiato</span>
+            <span class="precio">$3.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Café Frío</span>
+            <span class="precio">$3.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Café Frappuccino</span>
+            <span class="precio">$4.00</span>
+        </div>
+
+        <!-- SECCIÓN: POSTRES -->
+        <h3>🍰 Postres</h3>
+        <div class="menu-item">
+            <span>Galletas</span>
+            <span class="precio">$1.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Brownies</span>
+            <span class="precio">$2.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Bombones</span>
+            <span class="precio">$1.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Donas</span>
+            <span class="precio">$1.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Colas de Conejos</span>
+            <span class="precio">$2.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Pedazo de Pastel (Chocolate)</span>
+            <span class="precio">$3.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Pedazo de Pastel (Vainilla)</span>
+            <span class="precio">$3.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Pedazo de Pastel (Cheesecake)</span>
+            <span class="precio">$4.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Pedazo de Pastel (Red Velvet)</span>
+            <span class="precio">$4.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Pedazo de Pastel (Conejo Blanco)</span>
+            <span class="precio">$4.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Pedazo de Pastel (Cherry Bomb)</span>
+            <span class="precio">$4.00</span>
+        </div>
+
+        <!-- SECCIÓN: SALADOS -->
+        <h3>🥐 Salado</h3>
+        <div class="menu-item">
+            <span>Bollos de Mantequilla</span>
+            <span class="precio">$1.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Croissant de Jamón Serrano y Queso Crema</span>
+            <span class="precio">$3.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Sándwiches</span>
+            <span class="precio">$3.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Nuggets con Papas Fritas</span>
+            <span class="precio">$4.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Tequeños</span>
+            <span class="precio">$3.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Pastelitos</span>
+            <span class="precio">$2.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Empanadas</span>
+            <span class="precio">$2.00</span>
+        </div>
+
+        <!-- SECCIÓN: BEBIDAS -->
+        <h3>🥤 Otras Bebidas</h3>
+        <div class="menu-item">
+            <span>Refresco 1L</span>
+            <span class="precio">$2.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Refresco 2L</span>
+            <span class="precio">$3.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Botella de Agua</span>
+            <span class="precio">$1.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Jugos Naturales</span>
+            <span class="precio">$2.50</span>
+        </div>
+        <div class="menu-item">
+            <span>Malteadas</span>
+            <span class="precio">$3.50</span>
+        </div>
+    </div>
+
+    <div class="contenedor" id="contacto">
+        <h2>Horario y Ubicación</h2>
+        <p>📍 <strong>Dirección:</strong>C.C "LA GRANJA", FERIA DE COMIDA</p>
+        <p>⏰ <strong>Horario:</strong> Lunes a Sábado de 7:00 AM a 8:00 PM</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Café Bunny Hole</p>
+    </footer>
+
+</body>
+</html>
+
+```
